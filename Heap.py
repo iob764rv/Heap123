@@ -7,3 +7,4 @@ class Heap:
     #add a value to the heap
     node=Node().setInput(a)
     if nodeBar.value== None:
+      nodeBar.setValue(a)

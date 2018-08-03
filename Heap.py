@@ -3,5 +3,7 @@ class Heap:
   
   nodeBar = Node()
   
-  def addValue():
+  def addValue(a):
     #add a value to the heap
+    node=Node().setInput(a)
+    if nodeBar.value== None:

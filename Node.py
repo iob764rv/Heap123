@@ -4,6 +4,8 @@ class Node:
   rightNode=int;
   value=None;
   
+  def __init__(self):
+    #
   def setValue(newValue):
     self.value=newValue
     

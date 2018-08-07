@@ -10,7 +10,6 @@ class Heap:
     
     node=Node().setInput(a)
     if nodeBar.value== None: #condition for empty tree
-      
       nodeBar.setValue(a)
      else:
       currentNode=nodeBar #set current node to root node

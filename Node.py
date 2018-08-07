@@ -5,7 +5,7 @@ class Node:
   value=None;
   
   def __init__(self):
-    #
+    #c
   def setValue(newValue):
     self.value=newValue
     

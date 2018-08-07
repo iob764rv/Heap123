@@ -17,3 +17,5 @@ class Heap:
       outerNode=Node()
       while True:
         outerNode=currentNode
+        if a<currentNode.value:
+          #

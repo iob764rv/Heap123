@@ -23,3 +23,5 @@ class Heap:
             outerNode.leftNode== Node()
             outerNode.leftNode= node
             return
+         else:
+          # else add as right node

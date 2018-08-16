@@ -20,4 +20,6 @@ class Heap:
           outerNode.leftNode=node
           # if input value is less than current node, add as left node
           if currentNode.value== None:
+            outerNode.leftNode== Node()
+            outerNode.leftNode= node
             return

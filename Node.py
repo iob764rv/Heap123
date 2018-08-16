@@ -5,7 +5,10 @@ class Node:
   value=None;
   
   def __init__(self):
-    #elf
+    #init
+    self.leftNode= None
+    self.rightNode= None
+    self.value =None
   def setValue(newValue):
     self.value=newValue
     

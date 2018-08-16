@@ -25,3 +25,5 @@ class Heap:
             return
          else:
           # else add as right node
+          currentNode.rightNode= Node()
+          currentNode= currentNode.rightNode()

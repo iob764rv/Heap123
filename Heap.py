@@ -30,3 +30,4 @@ class Heap:
           if currentNode.value==None:
             outerNode.rightNode=Node() #set the type of rightNode
             outerNode.rightNode=node #set rightNode as 'node'
+            return

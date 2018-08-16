@@ -27,3 +27,6 @@ class Heap:
           # else add as right node
           currentNode.rightNode= Node()
           currentNode= currentNode.rightNode()
+          if currentNode.value==None:
+            outerNode.rightNode=Node() #set the type of rightNode
+            outerNode.rightNode=node #set rightNode as 'node'

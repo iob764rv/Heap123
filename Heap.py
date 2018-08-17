@@ -31,3 +31,6 @@ class Heap:
             outerNode.rightNode=Node() #set the type of rightNode
             outerNode.rightNode=node #set rightNode as 'node'
             return
+    def traverseHeap(node)
+      if node== None:
+        #

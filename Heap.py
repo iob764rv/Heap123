@@ -34,3 +34,5 @@ class Heap:
     def traverseHeap(node)
       if node== None:
         #
+      else:
+        #

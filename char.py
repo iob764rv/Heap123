@@ -1,4 +1,4 @@
-# plot_wave_file.py modified for exercise 12
+# plot_wave_file.py modified for12
 # # filter_16.py
 #% guitar_demo.m
 
@@ -29,8 +29,6 @@ stream = p.open(format      = pyaudio.paInt16,
 randomvalues = [random() - 1 for i in range(int(f*4))] #values to 60, like a variable 
 chart=[]
 fig = pyplot.figure(1)
-#pyplot.ylim(-60, 60)
-p#yplot.xlim(0, 100)
 
 for i in range(Fs*8):
     k=i+1

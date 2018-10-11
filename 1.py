@@ -1,4 +1,4 @@
-# play_wave_stereo.py modified for exercise 1
+# .py modified for 1
 # The file should play wav files with 1 or 2 channels
 
 import pyaudio
